@@ -1,5 +1,3 @@
-
-
 import type { Config } from 'tailwindcss';
 import tailwindcssAnimate from 'tailwindcss-animate';
 import typography from '@tailwindcss/typography';
@@ -56,15 +54,15 @@ const config: Config = {
         },
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: 'var(--radius)', // Custom border-radius
+        md: 'calc(var(--radius) - 2px)', // Slightly smaller than `lg`
+        sm: 'calc(var(--radius) - 4px)', // Slightly smaller than `md`
       },
     },
   },
   plugins: [
-    tailwindcssAnimate,
-    typography,
+    tailwindcssAnimate,  // Animation plugin
+    typography,           // Typography plugin
   ],
 };
 
