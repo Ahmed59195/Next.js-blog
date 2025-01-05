@@ -5,7 +5,13 @@
   ],
   "overrides": [
     {
-      "files": ["*.js", "*.mjs"],
+      "files": ["*.ts", "*.tsx"],  // Apply only to TypeScript files
+      "rules": {
+        "@typescript-eslint/no-require-imports": "off"
+      }
+    },
+    {
+      "files": ["sanity/**/*"],  // Apply only to Sanity files (if needed)
       "rules": {
         "@typescript-eslint/no-require-imports": "off"
       }
