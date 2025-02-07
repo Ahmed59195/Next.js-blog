@@ -2,5 +2,12 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript"
+<<<<<<< HEAD
   ]
+=======
+  ],
+  "rules": {
+    "@typescript-eslint/no-require-imports": "off"
+  }
+>>>>>>> 1ee5d8889e31c06925446222b363cff84abcc21d
 }

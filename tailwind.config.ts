@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/* eslint-disable @typescript-eslint/no-require-imports */
+
+>>>>>>> 1ee5d8889e31c06925446222b363cff84abcc21d
 import type { Config } from 'tailwindcss';
 import tailwindcssAnimate from 'tailwindcss-animate';
 import typography from '@tailwindcss/typography';
